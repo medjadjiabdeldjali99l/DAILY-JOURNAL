@@ -5,7 +5,7 @@
     ],
     "routes": [
       { "src": "/", "dest": "/app.js" },
-      { "src": "/about", "dest": "/views/about.ejs" },
+      { "src": "/about", "dest": "./views/about.ejs" },
       { "src": "/contact", "dest": "/contact" }
     ]
   }
