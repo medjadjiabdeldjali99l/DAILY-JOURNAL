@@ -5,8 +5,7 @@
     ],
     "routes": [
       { "src": "/", "dest": "/app.js" },
-      { "src": "/about", "dest": "/about" },
-      { "src": "/contact", "dest": "/contact" },
-      { "src": "/compose", "dest": "/app.js" }
+      { "src": "/about", "dest": "/about.ejs" },
+      { "src": "/contact", "dest": "/contact" }
     ]
   }
