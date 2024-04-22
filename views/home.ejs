@@ -1,7 +1,11 @@
 <%- include('partials/header'); -%>
 <h1>HOME</h1> 
 <p> <%=p1%> </p> 
+<div class="continer my-5" style="margin: 3em; text-align: center;">
+    <a href="/compose" type="button" class="btn btn-outline-light btn-lg btn-xxl shadow-xl bg- rounded-5 fw-bold buttn " ><div style="padding: 15px 15px;">Faire une nouvelle compose  </div></a>   
+          
 
+</div>
 <% posts.forEach(function (elm){  %>
     <h1><%=elm.post_titel %></h1>
     <p> <%=elm.post_post.slice(0, 100) + '...' %> <a href="/posts/<%=elm.post_titel %>">read more</a> </p>    
